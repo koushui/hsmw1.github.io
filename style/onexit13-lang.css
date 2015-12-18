@@ -1,0 +1,165 @@
+ /*Modal*/
+.layout_pop_up {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url(./bgfrm.png) repeat 0 0;
+    z-index: 1000;
+}
+.pop_up_wrap {
+    background: #1d9fde;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d9fde', endColorstr='#004d72',GradientType=0 ); /* IE6-8 */
+	margin:7% auto 0;
+	position: relative;
+    width:800px;
+	height:500px;
+}
+.fixed_line {
+	position:absolute;
+	width:800px;
+	height:122px;
+	top:195px;
+	left:0;
+	background: -moz-linear-gradient(top,  rgba(0,38,81,1) 0%, rgba(0,31,66,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,38,81,1)), color-stop(100%,rgba(0,31,66,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(0,38,81,1) 0%,rgba(0,31,66,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(0,38,81,1) 0%,rgba(0,31,66,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(0,38,81,1) 0%,rgba(0,31,66,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(0,38,81,1) 0%, rgba(0,31,66,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002651', endColorstr='#001f42',GradientType=0 ); /* IE6-8 */
+}
+.layout_pop_up .pop_up {
+    background:url(./pop_up_bg4_1.png) repeat-y;
+	padding: 10px 0 0 0;
+	position:absolute;
+	box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	width:100%;
+	height:100%;
+}
+.pop_up_top, .pop_up_bottom {
+	width:760px;
+	height:10px;
+	position:absolute;
+	left:20px;
+	top:0;
+	background:url(./pop_up_bg4_2.png) 0 0 repeat-x;
+}
+.pop_up_bottom {
+	top: auto;
+	bottom:0;
+	left:0;
+	width:800px;
+}
+.pop_up_logo {
+	margin:27px auto 0;
+	width:631px;
+	height:161px;
+	background:url(./pop_up_sprite13_lang.png) 0 0 no-repeat;
+}
+.pop_up_prog {
+	position:absolute;
+	width:800px;
+	height:122px;
+	top:195px;
+	left:0;
+	text-align:center;
+	line-height:122px;
+}
+.pop_up_icon_wrap {
+	background-color: #fff;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 122px;
+    left: 77px;
+    padding: 5px 5px 5px 0;
+    position: absolute;
+    top: 0;
+    width: 170px;
+}
+.pop_up_icon {
+	width:47px;
+	height:47px;
+	background: url(./pop_up_sprite3.png) -519px 0 no-repeat;
+	position:absolute;
+	top:7px;
+	left:0;
+}
+.pop_up_h1 {
+    color: #fff;
+	overflow:inherit;
+	white-space:normal;
+    font:100 48px/50px "segoe ui light", "segoe ui",Helvetica,arial,sans-serif;
+	margin-top:17px;
+	text-align:center;
+	position:relative;
+	display:inline-block;
+}
+.pop_up_items {
+	margin:0 auto;
+	line-height:28px;
+}
+.pop_up_items span {
+	padding-left:25px;
+	background: url(./pop_up_sprite3.png) -547px -77px no-repeat;
+	color:#fff;
+	font-size:18px;
+	line-height:30px;
+	margin-right:25px;
+}
+.pop_up .close_btn{
+    background: url(./pop_up_sprite.png) -261px 0 no-repeat;
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    right: 27px;
+    top: 27px;
+}
+.links_wrapper {
+	text-align:center;
+	margin-top:160px;
+}
+.links_wrapper div {
+	border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+    -o-border-radius:7px;
+    -ms-border-radius:7px;
+}
+.links_wrapper .btn_find {
+    background: #f3f3f3;
+	padding:5px;
+	margin:0 auto 14px;
+	width:265px;
+}
+.links_wrapper .btn_find a{
+    background: #6bbb0c;
+    color: #f3f3f3;
+    font: 500 36px/50px "segoe ui",Helvetica,arial,sans-serif;
+	display:block;
+    box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    overflow: hidden;
+    height: 50px;
+    padding: 4px 0 8px;
+}
+.links_wrapper .btn_find a:hover{
+    text-decoration: none;
+	background:#94cc0e;
+}
+.links_wrapper a.link_decline {
+    text-decoration: underline;
+    font:400 13px/1 "segoe ui",Helvetica,arial,sans-serif;
+    color: #fff;
+	opacity:0.6;
+}
+.pop_up_h1 img {
+    position: relative;
+    top: 1px;
+}
