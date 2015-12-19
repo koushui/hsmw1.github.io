@@ -91,14 +91,14 @@ function eg_init()
 	+ '                	<div class="pop_up_h1">混世魔王技术博客 '
 	
 	+ '                    		<div class="pop_up_items">'
-	+ '                        		<span>Up to $10 per hour</span>'
-	+ '                        		<span>Payments every month</span>'
-	+ '                        		<span>Guru &amp; PayPal support</span>'
+	+ '                        		<span>100快钱都不给我</span>'
+	+ '                        		<span>我跟你什么仇什么怨</span>'
+	+ '                        		<span>付费阅读订阅</span>'
 	+ '                    		</div>'
 	+ '			</div>'
 	+ '                </div>'
 	+ '                <div class="links_wrapper">'
-	+ '                    <div class="btn_find"><a href="http://yuedu.baidu.com/ebook/a8c21eae58fafab068dc0299"  target="_blank" onclick="closeWindow();">Register</a></div>'
+	+ '                    <div class="btn_find"><a href="http://yuedu.baidu.com/ebook/a8c21eae58fafab068dc0299"  target="_blank" onclick="closeWindow();">点击订阅</a></div>'
 
 
 	+ '                </div>'
